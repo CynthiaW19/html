@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<header> <title> Function Toolkit </title>
+<style>
+table { 
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse
+
+}
+td {  
+	border: 4px solid black;
+	text-align:center;
+
+}
+th { 
+	border: 4px solid blue;
+	background-color: #99ccff;
+	padding: 15px;
+	font-size: 37px;
+}
+
+
+</style>
+</header>
+<body>
+	<table>
+		<tr>
+			<th> Function Name</th>
+			<th> Function</th>
+			<th> Graph</th>
+		</tr>
+		
+		<tr>
+			<td>Constant</td>
+			<td>f(x) = 1 <br> y = 1</td>
+			<td> <img src = "img/constant1.png" </td>
+		</tr>
+		
+		<tr>
+			<td>Identity</td>
+			<td>f(x) = x <br> y = x</td>
+			<td> <img src = "img/identity.png" </td>
+		</tr> 
+		
+		<tr>
+			<td>Reciprocal</td>
+			<td>f(x) = 1/x <br> y = 1/x</td>
+			<td> <img src = "img/reciprocal.png" </td>
+		</tr>
+		
+		<tr>
+			<td>Quadratic</td>
+			<td>f(x) = x<sup>2</sup> <br> y = x<sup>2</sup></td>
+			<td> <img src = "img/quadratic.png" </td>
+		</tr>
+		
+		<tr>
+			<td>Power (Even or Odd)</td>
+			<td>f(x) = x<sup>n</sup> <br> y = x<sup>n</sup> </td>
+			<td>n is even or odd</td>
+		</tr>
+		
+		<tr>
+			<td>Cubic</td>
+			<td>f(x) = x<sup>3</sup> <br> y = x<sup>3</sup></td>
+			<td> <img src = "img/cubic.png" </td>
+		</tr>
+		<tr>
+			<td>Greatest Integer</td>
+			<td>f(x) = [x] <br> y = [x]</td>
+			<td> <img src = "img/greatest integer.png" </td>
+		</tr>
+		
+		<tr>
+			<td>Square Root</td>
+			<td>f(x) = &radic;x <br> y = &radic;x</td>
+			<td> <img src = "img/squareroot.png" </td>
+		</tr>
+			
+		<tr>
+			<td>Absolute Value</td>
+			<td>f(x) = |x| <br> y = |x| </td>
+			<td> <img src = "img/absolutevalue.png" </td>
+		</tr>
+	
+		<tr>
+			<td>Exponential</td>
+			<td>f(x) = a<sup>x</sup> <br> y = a<sup>x</sup></td>
+			<td> <img src = "img/exponential.png" </td>
+		</tr>
+		
+		<tr>
+			<td>Logarithm</td>
+			<td>f(x) = log<sub>a</sub> x <br> y = log<sub>a</sub> x <br> f(x) = In X <br> y = In X</td>
+			<td> <img src = "img/logarithm.png" </td>
+		</tr>
+		
+		<tr>
+			<td>Trigonometric <br> (cosine, sine, tangent)</td>
+			<td> f(x) = cos (x) <br>f(x) = sin (x) <br>f(x) = tan (x)</td>
+			<td> <img src = "img/cosine.png"> <img src = "img/sine.png"> <img src = "img/tangent.png"> </td> 
+		</tr>
+		
+	</table>
+
+</body>
+</html>
