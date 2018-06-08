@@ -1,0 +1,433 @@
+
+p {
+	position: absolute;
+	top: 300px;
+	right: 300px;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 60px; 
+	color: #fff;
+	letter-spacing: 10px; 
+
+}
+
+
+body{
+	background-color: #000;
+
+}
+html,body { 
+	width: 100%;
+	overflow-x: hidden;
+
+	
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+
+  background-color: #340000;
+  color: #fff;
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.sidenav {
+	z-index: 5;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+	left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.6s;
+    padding-top: 60px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 45px;
+    margin-left: 50px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	padding: 5px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #fff;
+	text-align: center;
+	font-size: 2.3vw;
+}
+li a{
+	padding: 17px;
+	display: block;
+	list-style-type:none;
+	text-decoration: none;
+	text-align: center;
+	font-size: 2vw;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+a:link{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:visited{
+	color: #fff;
+}
+
+a:hover{
+	border-bottom: 4px solid #800;
+	transition: .3s;
+}
+.content {
+	position: absolute;
+    left: 0px;
+    top: 0px;
+	z-index:-1;
+}
+.test {
+	font-family: 'Josefin Sans', sans-serif;
+	float: top;
+	border-radius: 4px;
+	background-color: #000000;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
+	width: 134px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.test span {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.test span:after {
+  content: '\00bb';
+  color: #800;
+  font-size: 30px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.test:hover span:after {
+  opacity: 1;
+}
+
+.ors{
+	float: left;
+	width: 100%;
+    max-width: 700px;
+    height: auto;
+	z-index: -1;	
+}
+
+.how{
+	width: 100%;
+    max-width: 700px;
+    height: auto;
+	z-index: -1;
+
+
+	
+}
+.hows::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.matt{
+	width: 100%;
+    max-width: 700px;
+    height: auto;
+	z-index: -1;
+
+}
+.img1{
+	width: 1920px;
+	height: 500px;
+	
+}
+
+
+.container {
+  position: absolute;
+  top: 590px;
+  margin-top: 50px;
+  width: 500px;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.container:hover .overlay {
+  display: block;
+
+}
+
+.ors1 {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  width: 500px;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: -1;
+  transition: top .5s ease;
+}
+
+.container:hover .ors1{
+  top: 90px;
+}
+
+.button1 {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  width: 500px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button1 a {
+  width: 200px;
+  padding: 15px 48px;
+  text-align: center;
+  color: #fff;
+  border: solid 1px #fff;
+  z-index: 1;
+}
+
+.container:hover .button1 {
+  opacity: 1;
+}
+
+
+
+
+.container1 {
+  position: absolute;
+  left: 700px;
+  right: 700px;
+  top: 590px;
+  margin-top: 50px;
+  width: 500px;
+  height: 300px;
+}
+
+
+
+.container1:hover .overlay {
+  display: block;
+
+}
+
+.class {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  width: 500px;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: -1;
+  transition: top .5s ease;
+}
+
+.container1:hover .class{
+  top: 90px;
+}
+
+.button2 {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  width: 500px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button2 a {
+  width: 200px;
+  padding: 15px 48px;
+  text-align: center;
+  color: #fff;
+  border: solid 1px #fff;
+  z-index: 1;
+}
+
+.container1:hover .button2 {
+  opacity: 1;
+}
+
+.container1 {
+  position: absolute;
+  left: 700px;
+  top: 590px;
+  margin-top: 50px;
+  width: 500px;
+  height: 300px;
+}
+
+.container2 {
+  position: absolute;
+  left: 1360px;
+  right: 1360px;
+  top: 590px;
+  margin-top: 50px;
+  width: 500px;
+  height: 300px;
+}
+
+.container2:hover .overlay {
+  display: block;
+
+}
+
+.class2 {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  width: 500px;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: -1;
+  transition: top .5s ease;
+}
+
+.container2:hover .class2{
+  top: 90px;
+}
+
+.button3 {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  width: 500px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button3 a {
+  width: 200px;
+  padding: 15px 48px;
+  text-align: center;
+  color: #fff;
+  border: solid 1px #fff;
+  z-index: 1;
+}
+
+.container2:hover .button3 {
+  opacity: 1;
+}
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gloria Hallelujah'), local('GloriaHallelujah'), url(https://fonts.gstatic.com/s/gloriahallelujah/v9/LYjYdHv3kUk9BMV96EIswT9DIbW-MIS11zM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v12/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10h.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.column div span {
+	z-index: -1;
+	text-decoration: none;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
